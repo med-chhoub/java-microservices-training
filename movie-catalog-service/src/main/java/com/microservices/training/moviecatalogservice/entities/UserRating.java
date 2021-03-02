@@ -7,6 +7,9 @@ public class UserRating {
 
     private List<Rating> ratings;
 
+    public UserRating() {
+    }
+
     public UserRating(List<Rating> ratings) {
         this.ratings = ratings;
     }

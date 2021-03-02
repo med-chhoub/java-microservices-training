@@ -5,6 +5,9 @@ import java.util.List;
 public class UserRating {
     private List<Rating> ratings;
 
+    public UserRating() {
+    }
+
     public List<Rating> getRatings() {
         return ratings;
     }
